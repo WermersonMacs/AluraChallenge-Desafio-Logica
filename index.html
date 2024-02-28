@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header class="logo">
+        <img src="./imagens/Logo.svg" alt="logo da Alura" class="imagem__logo">
+    </header>
+
+    <main>
+        <section class="primeira__sessao">
+            <div class="primeira__sessao__areaTexto">
+                <textarea placeholder="Digite seu texto aqui!" class="primeira__sessao__texto" id="primeira__sessao__texto"></textarea>
+            </div>
+
+            <div class="interrrogacao">
+                <img src="./imagens/bi_exclamation-circle-fill.svg" alt="!">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="container-btn">
+                <input type="button" class="btn-criptografar" value="Criptografar" onclick="criptografar()">
+                <input type="button" class="btn-descriptografar" value="Descriptografar" onclick="descriptografar()">
+            </div>
+        </section>
+
+        <section class="segunda__sessao">
+            <div class="segunda__sessao__imagem">
+                <img src="./imagens/um-pequeno-detetive-observa-grandes-pegadas_173125-431.avif" alt="detetive" width="337" height="305">
+            </div>
+            <div class="segunda__sessao__texto">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja <br>Criptografar ou Descriptografar.</p>
+            </div>
+            <div class="segunda__sessao__resultado">
+                <p></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/wermerson-macedo/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/WermersonMacs"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por WermersonMacs</h3>
+    </footer>
+
+    <script src="./script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
